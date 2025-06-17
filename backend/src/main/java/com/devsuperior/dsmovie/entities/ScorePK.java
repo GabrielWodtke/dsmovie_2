@@ -2,9 +2,9 @@ package com.devsuperior.dsmovie.entities;
 
 import java.io.Serializable;
 
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
+import javax.persistence.Embeddable;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Embeddable
 public class ScorePK implements Serializable{
